@@ -3,7 +3,7 @@ package com.example.springbasicannotation.controller;
 import org.springframework.web.bind.annotation.*;
 
 // 응답 데이터를 반환한다.
-//@RequestMapping("/prefix")
+//@RequestMapping("/prefix") // 공통 url 부분
 @RestController
 public class RequestMappingController {
 

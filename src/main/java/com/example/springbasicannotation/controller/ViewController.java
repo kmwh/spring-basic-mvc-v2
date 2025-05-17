@@ -9,7 +9,7 @@ public class ViewController {
     @RequestMapping("/view")
     public String example() {
         // logic
-        return "sparta"; // ViewName이 return
+        return "sparta"; // ViewName이 return (ThymeleafViewResolver에 의해 View Name으로 인식)
     }
 
 }
